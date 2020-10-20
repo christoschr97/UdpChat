@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">UdpChat</string>
+    <string name="port">Port</string>
+    <string name="ip_destination">Ip Destination</string>
+    <string name="port_destination">Port Destination</string>
+    <string name="name_source">Name Source</string>
+    <string name="start">Start</string>
+    <string name="EditText">Edit Text</string>
+    <string name="LayoutMessage">Layout Message</string>
+    <string name="action_search">search</string>
+    <string name="sourcePort">source port</string>
+</resources>

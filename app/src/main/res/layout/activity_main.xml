@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical">
+
+    <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please complete the empty edit texts"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+
+    <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name_source"/>
+
+    <EditText
+            android:id="@+id/name_source"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sourcePort"/>
+
+    <EditText
+            android:id="@+id/sourcePort"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ip_destination"/>
+
+    <EditText
+            android:id="@+id/ip_destination"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/port_destination"/>
+
+    <EditText
+            android:id="@+id/port_destination"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <Button android:id="@+id/sendBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/start"/>
+
+    <TextView android:id="@+id/wifiManagerTxtView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="IPaddress"/>
+
+</LinearLayout>
